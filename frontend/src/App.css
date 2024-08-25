@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+}
+
+.App {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.App-header {
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+}
+
+.App-header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.App-header p {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.input-section {
+    margin-top: 20px;
+}
+
+input {
+    width: 60%;
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 20px 0;
+    background-color: #61dafb;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #21a1f1;
+}
+
+.response-section {
+    margin-top: 30px;
+}
+
+.filter-label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.filter-select {
+    width: 60%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    background-color: #fff;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.filter-select:focus {
+    border-color: #61dafb;
+    outline: none;
+}
+
+.filter-select option {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+    color: #333;
+    cursor: pointer;
+}
+
+.filter-select option:hover {
+    background-color: #61dafb;
+    color: white;
+}
+
+.filtered-response {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #333;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    line-height: 1.6;
+}
+
+.filtered-response span {
+    display: block;
+    font-weight: bold;
+    color: #282c34;
+    margin-bottom: 10px;
+}
+
+.filtered-response span.value {
+    color: #61dafb;
+    font-weight: normal;
+    margin-bottom: 20px;
+    display: inline-block;
+}
