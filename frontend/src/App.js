@@ -9,7 +9,7 @@ function App() {
     const handleSubmit = async () => {
         try {
             const parsedInput = JSON.parse(input);
-            const res = await fetch('https://your-backend-url.vercel.app/bfhl', { // Update this line
+            const res = await fetch('https://bfhl-backend-pavan-60a0d380df8f.herokuapp.com/bfhl', { // Updated with your Heroku backend URL
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
