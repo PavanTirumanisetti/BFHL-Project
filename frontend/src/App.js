@@ -9,7 +9,7 @@ function App() {
     const handleSubmit = async () => {
         try {
             const parsedInput = JSON.parse(input);
-            const res = await fetch('http://localhost:3000/bfhl', {
+            const res = await fetch('https://your-backend-url.vercel.app/bfhl', { // Update this line
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
